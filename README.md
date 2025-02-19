@@ -1,3 +1,11 @@
+# RISC-V Processor Design with Explicit Register Renaming (ERR) Microarchitecture
+
+This is a project I completed with a group of 3 students including myself as part of ECE 411: Computer Organization & Design class at the University of Illinois at Urbana-Champaign in Fall 2024. We used SystemVerilog to design and implement RISC-V processor using explicit register renaming (ERR) microarchitecture. In the end, we built a processor that supports all basic RISC-V instructions (arithmetic, branch, memory) and was optimized in terms of power, area, and timing.
+
+The elements of the project I was mainly responsible for were: fetching instructions, register alias table, retirement register alias table, physical register file, functional units, and branch/jump instructions, as well as ensuring my code was cohesive with my teammates' code.
+
+This project not only honed our technical skills in computer architecture, but also challenged our teamwork, collaboration, and planning skills due to each part that we worked on heavily depending on and sometimes even interfering with other parts. The instructions that were provided to us are shown below.
+
 # ECE 411: mp_ooo
 
 This document, README.md, forms the specification for the machine problem. For
